@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>360° Immersive Virtual Tour Project - Vishay Kumar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="project-styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="index.html" style="text-decoration: none; color: inherit;">
+                <div class="logo">Vishay Kumar</div>
+            </a>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="navMenu">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#skills">Skills</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#journey">Journey</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <canvas id="matrixCanvas"></canvas>
+
+    <!-- Project Hero -->
+    <section class="project-hero">
+        <div class="container">
+            <h1>360° Immersive Virtual Tour</h1>
+            <p>Interactive Campus Walkthrough Experience</p>
+        </div>
+    </section>
+
+    <!-- Project Content -->
+    <section class="project-content">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / <a href="index.html#projects">Projects</a> / 360° Immersive Tour
+            </div>
+            <a href="index.html#projects" class="back-button">← Back to Projects</a>
+
+            <div class="project-section">
+                <h2>Project Overview</h2>
+                <p>Created an interactive 360-degree panoramic walkthrough system that allows users to explore Chandigarh University campus with intuitive point-and-teleport navigation. This innovative experience enables seamless campus exploration from anywhere in the world.</p>
+                <p>The project was showcased and presented to the Hon. Chancellor Sir at the Corporate Advisory Board (CAB) meeting in 2025, demonstrating advanced immersive technology capabilities in educational environments.</p>
+            </div>
+
+            <div class="project-section">
+                <h2>Project Gallery</h2>
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <div class="title">🌍 360° Panoramic Views</div>
+                        <div class="description">Immersive campus panoramas from multiple locations</div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="title">📍 Drop-Point Teleportation</div>
+                        <div class="description">Intuitive point-based navigation system</div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="title">🚶 Full Campus Walkthrough</div>
+                        <div class="description">Complete exploration of all campus areas</div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="title">📊 Interactive Information</div>
+                        <div class="description">Campus details and wayfinding information</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-section">
+                <h2>Key Features</h2>
+                <ul>
+                    <li>360-degree panoramic navigation with immersive visuals</li>
+                    <li>Intuitive drop-point teleportation system for seamless movement</li>
+                    <li>Complete campus walkthrough with multiple stopping points</li>
+                    <li>Real-time information panels at key locations</li>
+                    <li>Smooth transitions between panoramic scenes</li>
+                    <li>Customizable navigation paths for guided tours</li>
+                    <li>Support for VR headsets and desktop browsers</li>
+                </ul>
+            </div>
+
+            <div class="project-section">
+                <h2>Technical Implementation</h2>
+                <ul>
+                    <li>360-degree panorama capture and stitching technology</li>
+                    <li>Custom point-based teleportation system with smooth transitions</li>
+                    <li>Advanced rendering for high-fidelity panoramic display</li>
+                    <li>Multi-layer information system with interactive hotspots</li>
+                    <li>Optimized performance for smooth navigation experience</li>
+                    <li>Touch and controller input support for all platforms</li>
+                    <li>Custom wayfinding system with visual guides</li>
+                </ul>
+            </div>
+
+            <div class="project-section">
+                <h2>Experience Features</h2>
+                <div class="specs-grid">
+                    <div class="spec-card">
+                        <h4>🎯 Navigation</h4>
+                        <p>Drop-point teleportation system</p>
+                    </div>
+                    <div class="spec-card">
+                        <h4>📸 Coverage</h4>
+                        <p>Multiple campus locations</p>
+                    </div>
+                    <div class="spec-card">
+                        <h4>⏱️ Experience</h4>
+                        <p>Complete campus walkthrough</p>
+                    </div>
+                    <div class="spec-card">
+                        <h4>🌐 Accessibility</h4>
+                        <p>Desktop, Mobile, VR Headsets</p>
+                    </div>
+                    <div class="spec-card">
+                        <h4>📍 Waypoints</h4>
+                        <p>Multiple interactive locations</p>
+                    </div>
+                    <div class="spec-card">
+                        <h4>💾 Optimization</h4>
+                        <p>High-quality with fast loading</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-section">
+                <h2>Technologies & Tools Used</h2>
+                <div class="tech-stack">
+                    <div class="tech-item">Unity Engine</div>
+                    <div class="tech-item">360 Photography</div>
+                    <div class="tech-item">C#</div>
+                    <div class="tech-item">UI/UX Design</div>
+                    <div class="tech-item">VR Development</div>
+                    <div class="tech-item">Panoramic Content</div>
+                </div>
+            </div>
+
+            <div class="project-section">
+                <h2>Presentation & Recognition</h2>
+                <ul>
+                    <li><strong>Showcase:</strong> Corporate Advisory Board (CAB) Meeting - 2025</li>
+                    <li><strong>Presented to:</strong> Hon. Chancellor Sir, Chandigarh University</li>
+                    <li><strong>Impact:</strong> Demonstrated innovative approach to campus engagement</li>
+                    <li><strong>Recognition:</strong> Highlighted as significant technological advancement</li>
+                    <li><strong>Future Scope:</strong> Model for other educational institutions</li>
+                </ul>
+            </div>
+
+            <div class="project-section">
+                <h2>Use Cases & Applications</h2>
+                <ul>
+                    <li>Virtual campus tours for prospective students worldwide</li>
+                    <li>Remote student orientation and campus familiarization</li>
+                    <li>Parent engagement and campus showcasing</li>
+                    <li>Educational institution marketing and recruitment</li>
+                    <li>Accessible campus exploration for physical accessibility needs</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Vishay Kumar. All rights reserved. Tech Enthusiast & 3D Artist</p>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        // Close menu when clicking on a link
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+            });
+        });
+    </script>
+    <script>
+        // matrix rain
+        const canvas = document.getElementById('matrixCanvas');
+        const ctx = canvas.getContext('2d');
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        const cols = canvas.width / 20;
+        const ypos = Array(Math.floor(cols)).fill(0);
+        function matrix() {
+            ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            ctx.fillStyle = '#0F0';
+            ctx.font = '15px monospace';
+            ypos.forEach((y, ind) => {
+                const text = String.fromCharCode(0x30A0 + Math.random() * 96);
+                const x = ind * 20;
+                ctx.fillText(text, x, y);
+                if (y > 100 + Math.random() * 10000) ypos[ind] = 0;
+                else ypos[ind] = y + 20;
+            });
+        }
+
+        let gridOffset = 0;
+        function drawGrid() {
+            ctx.strokeStyle = 'rgba(0,255,0,0.2)';
+            ctx.lineWidth = 1;
+            const spacing = 50;
+            gridOffset = (gridOffset + 1) % spacing;
+            for (let x = -spacing; x < canvas.width + spacing; x += spacing) {
+                ctx.beginPath();
+                ctx.moveTo(x + gridOffset, 0);
+                ctx.lineTo(x + gridOffset - canvas.height, canvas.height);
+                ctx.stroke();
+            }
+        }
+
+        function loop() {
+            matrix();
+            drawGrid();
+        }
+
+        setInterval(loop, 50);
+        window.addEventListener('resize', () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Target Technology Project - Vishay Kumar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="project-styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="index.html" style="text-decoration: none; color: inherit;">
+                <div class="logo">Vishay Kumar</div>
+            </a>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="navMenu">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#skills">Skills</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#journey">Journey</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <canvas id="matrixCanvas"></canvas>
+
+    <!-- Project Hero -->
+    <section class="project-hero">
+        <div class="container">
+            <h1>AR Business Card & Image Tracking</h1>
+            <p>Interactive 3D Content Triggered by Image Recognition</p>
+        </div>
+    </section>
+
+    <!-- Project Content -->
+    <section class="project-content">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / <a href="index.html#projects">Projects</a> / Image Target Technology
+            </div>
+            <a href="index.html#projects" class="back-button">← Back to Projects</a>
+
+            <div class="project-section">
+                <h2>Project Overview</h2>
+                <p>Developed innovative AR Business Card technology that transforms static business cards into interactive 3D experiences. Using advanced image target recognition, the system instantly detects business cards and displays 3D models, animations, and contact information in real-time augmented reality.</p>
+                <p>This project demonstrates expertise in marker-based image tracking, 3D model integration, and seamless AR experiences. The technology achieves 98% accuracy with real-time processing, enabling businesses to create memorable, interactive marketing materials that engage customers instantly when scanned with mobile devices.</p>
+            </div>
+
+            <div class="project-section">
+                <h2>Project Gallery</h2>
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img src="https://i.ibb.co/TMd3pTpr/image.jpg" alt="3D Card Recognition" style="width: 100%; height: auto; border-radius: 8px; object-fit: cover;">
+                        <div class="title">🎯 Business Card Recognition</div>
+                        <div class="description">Advanced image target detection on business cards</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://i.ibb.co/wN2cQ7sK/image.jpg" alt="3D Model Rendering" style="width: 100%; height: auto; border-radius: 8px; object-fit: cover;">
+                        <div class="title">📱 3D Model Rendering</div>
+                        <div class="description">Interactive 3D animations triggered by card scan</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://i.ibb.co/NgCRqxk9/image.jpg" alt="Contact Information" style="width: 100%; height: auto; border-radius: 8px; object-fit: cover;">
+                        <div class="title">📋 Contact Display</div>
+                        <div class="description">Portfolio and contact info overlay on AR card</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://i.ibb.co/dJ77y5gk/image.jpg" alt="Real-time Performance" style="width: 100%; height: auto; border-radius: 8px; object-fit: cover;">
+                        <div class="title">⚡ Real-time Performance</div>
+                        <div class="description">60+ FPS optimization for smooth AR experience</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-section">
+                <h2>Key Features & Applications</h2>
+                <ul>
+                    <li>98% accuracy in real-time business card detection</li>
+                    <li>Instant 3D model rendering on image recognition</li>
+                    <li>Interactive animations and contact information display</li>
+                    <li>Support for portfolio links, social media, and video playback</li>
+                    <li>Works in various lighting conditions with robust tracking</li>
+                    <li>Zero-latency response for seamless user experience</li>
+                    <li>Enterprise solution for corporate branding and networking</li>
+                    <li>Perfect for events, conferences, and business meetings</li>
+                </ul>
+            </div>
+
+            <div class="project-section">
+                <h2>Technical Implementation</h2>
+                <ul>
+                    <li>Computer vision for image feature extraction and matching</li>
+                    <li>Real-time pose estimation and marker tracking</li>
+                    <li>Advanced feature extraction using SIFT and ORB algorithms</li>
+                    <li>Real-time pose estimation using PnP algorithms</li>
+                    <li>3D model rendering with WebGL and Three.js</li>
+                    <li>Multi-marker simultaneous tracking capability</li>
+                    <li>Camera calibration for accurate AR alignment</li>
+                    <li>Optimized for mobile processors with minimal latency</li>
+                    <li>Support for dynamic content updates and animations</li>
+                    <li>Integration with backend services for contact management</li>
+                </ul>
+            </div>
+
+            <div class="project-section">
+                <h2>Performance Metrics</h2>
+                <div class="specs-grid">
+                    <div class="spec-card">
+                        <h4>🎯 Accuracy</h4>
+                        <p>98% tracking precision</p>
+                    </div>
+                    <div class="spec-card">
+                        <h4>⚡ Latency</h4>
+                        <p>&lt;16ms detection time</p>
+                    </div>
+                    <div class="spec-card">
+                        <h4>📊 Performance</h4>
+                        <p>60+ FPS real-time processing</p>
+                    </div>
+                    <div class="spec-card">
+                        <h4>🌐 Range</h4>
+                        <p>Multi-target tracking up to 10 markers</p>
+                    </div>
+                    <div class="spec-card">
+                        <h4>💡 Lighting</h4>
+                        <p>Works in varied lighting conditions</p>
+                    </div>
+                    <div class="spec-card">
+                        <h4>📱 Platforms</h4>
+                        <p>iOS, Android, VR Headsets</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-section">
+                <h2>Business Applications & Use Cases</h2>
+                <ul>
+                    <li><strong>Corporate Networking:</strong> Transform standard business cards into interactive networking tools at conferences</li>
+                    <li><strong>Portfolio Showcase:</strong> Display 3D project demonstrations and portfolio videos instantly</li>
+                    <li><strong>Product Marketing:</strong> Showcase product features and specifications through immersive 3D models</li>
+                    <li><strong>Event Marketing:</strong> Create memorable brand experiences at trade shows and corporate events</li>
+                    <li><strong>Recruitment:</strong> Engage potential candidates with company culture and job opportunities in AR</li>
+                    <li><strong>Educational Materials:</strong> Enhance educational business cards with interactive learning content</li>
+                    <li><strong>Real Estate:</strong> Display property details and virtual tours on promotional cards</li>
+                    <li><strong>Restaurant & Hospitality:</strong> Showcase menus, ambiance, and special promotions</li>
+                </ul>
+            </div>
+
+            <div class="project-section">
+                <h2>Technologies & Tools Used</h2>
+                <div class="tech-stack">
+                    <div class="tech-item">Computer Vision</div>
+                    <div class="tech-item">ARCore/ARKit</div>
+                    <div class="tech-item">OpenCV</div>
+                    <div class="tech-item">Three.js</div>
+                    <div class="tech-item">Real-time Tracking</div>
+                    <div class="tech-item">Image Recognition</div>
+                </div>
+            </div>
+
+            <div class="project-section">
+                <h2>Performance Metrics</h2>
+                <div class="specs-grid">
+                    <div class="spec-card">
+                        <h4>🎯 Accuracy</h4>
+                        <p>98% tracking precision</p>
+                    </div>
+                    <div class="spec-card">
+                        <h4>⚡ Latency</h4>
+                        <p>&lt;16ms detection time</p>
+                    </div>
+                    <div class="spec-card">
+                        <h4>📊 Performance</h4>
+                        <p>60+ FPS real-time processing</p>
+                    </div>
+                    <div class="spec-card">
+                        <h4>🌐 Range</h4>
+                        <p>Multi-card tracking capability</p>
+                    </div>
+                    <div class="spec-card">
+                        <h4>💡 Lighting</h4>
+                        <p>Works in varied lighting conditions</p>
+                    </div>
+                    <div class="spec-card">
+                        <h4>📱 Platforms</h4>
+                        <p>iOS, Android, Web</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-section" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 2rem; border-radius: 8px; margin-top: 3rem;\">\n                <h3 style=\"color: white; margin-bottom: 1rem; font-family: 'Playfair Display', serif;\">👔 Team Role & Leadership</h3>\n                <p style=\"color: white; opacity: 0.95; line-height: 1.8;\"><strong>Team Lead</strong> - Responsible for architecting the image tracking pipeline, coordinating AR integration, and leading development of the business card recognition system. Successfully managed a team of 3 developers and 2 AR designers to deliver this enterprise-grade solution.</p>\n            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Vishay Kumar. All rights reserved. Tech Enthusiast & 3D Artist</p>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        // Close menu when clicking on a link
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>

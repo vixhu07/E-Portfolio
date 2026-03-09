@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Campus Simulation Project - Vishay Kumar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="project-styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="index.html" style="text-decoration: none; color: inherit;">
+                <div class="logo">Vishay Kumar</div>
+            </a>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="navMenu">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#skills">Skills</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#journey">Journey</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <canvas id="matrixCanvas"></canvas>
+
+    <!-- Project Hero -->
+    <section class="project-hero">
+        <div class="container">
+            <h1>3D Campus Simulation</h1>
+            <p>High-Fidelity Virtual Environment with VR Integration</p>
+        </div>
+    </section>
+
+    <!-- Project Content -->
+    <section class="project-content">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / <a href="index.html#projects">Projects</a> / 3D Campus Simulation
+            </div>
+            <a href="index.html#projects" class="back-button">← Back to Projects</a>
+
+            <div class="project-section">
+                <h2>Project Overview</h2>
+                <p>Worked with a team to create a comprehensive 3D simulation of Chandigarh University's campus with full spatial navigation and VR integration. The project demonstrated proficiency in 3D environment design, optimization, and multi-platform deployment.</p>
+                <p>The project was showcased at the Project Expo 2025 (2nd Prize Winner), presented to the Hon. Chancellor Sir at the Corporate Advisory Board (CAB) meeting, and deployed on both PC and VR platforms (Meta Quest 3 and Meta Quest 2).</p>
+            </div>
+
+            <div class="project-section">
+                <h2>Project Gallery</h2>
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img src="https://i.ibb.co/PGsFwvtX/image.jpg" alt="Ocean Wave Scene" style="width: 100%; height: auto; border-radius: 8px; object-fit: cover;">
+                        <div class="title">🌊 Campus Water Features</div>
+                        <div class="description">3D modeling of campus water bodies and landscape features</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://i.ibb.co/20hYx3Gq/image.jpg" alt="Rain Particle System" style="width: 100%; height: auto; border-radius: 8px; object-fit: cover;">
+                        <div class="title">🏛️ Academic Buildings</div>
+                        <div class="description">High-fidelity 3D campus structures and architecture</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://i.ibb.co/8gwWRhhd/image.jpg" alt="Real-time Tracking" style="width: 100%; height: auto; border-radius: 8px; object-fit: cover;">
+                        <div class="title">🏞️ Campus Environment</div>
+                        <div class="description">Complete Chandigarh University campus visualization</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://i.ibb.co/NdCY1NrY/image.jpg" alt="Multi-Platform Support" style="width: 100%; height: auto; border-radius: 8px; object-fit: cover;">
+                        <div class="title">🥽 VR Experience</div>
+                        <div class="description">Meta Quest 2 & 3 immersive walkthrough</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-section">
+                <h2>Key Achievements</h2>
+                <ul>
+                    <li>Collaborated with a dedicated team of 4 developers</li>
+                    <li>Complete 3D modeling of Lucknow campus using Blender</li>
+                    <li>Real-time environment rendering using Unreal Engine</li>
+                    <li>Seamless display and optimization using Twinmotion</li>
+                    <li>🏆 2nd Prize Winner - Project Expo 2025</li>
+                    <li>Successfully presented to Hon. Chancellor Sir of CU</li>
+                    <li>Showcased at Corporate Advisory Board (CAB) meeting 2025</li>
+                    <li>Fully compatible with Meta Quest 2 and Meta Quest 3</li>
+                    <li>Passed all three phases of project evaluation (Sept-Nov 2024)</li>
+                </ul>
+            </div>
+
+            <div class="project-section">
+                <h2>System Specifications & Hardware</h2>
+                <div class="specs-grid">
+                    <div class="spec-card">
+                        <h4>🖥️ Processor</h4>
+                        <p>Intel i7-14700K (Latest Gen)</p>
+                    </div>
+                    <div class="spec-card">
+                        <h4>🎮 Graphics Card</h4>
+                        <p>RTX 4070 Ti Super</p>
+                    </div>
+                    <div class="spec-card">
+                        <h4>🧠 Memory</h4>
+                        <p>32GB DDR5 6000MHz RAM</p>
+                    </div>
+                    <div class="spec-card">
+                        <h4>💾 Storage</h4>
+                        <p>1TB NVMe SSD</p>
+                    </div>
+                    <div class="spec-card">
+                        <h4>🥽 VR Platforms</h4>
+                        <p>Meta Quest 2, Meta Quest 3</p>
+                    </div>
+                    <div class="spec-card">
+                        <h4>💻 Display</h4>
+                        <p>PC + VR Headsets</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-section">
+                <h2>Technical Implementation</h2>
+                <ul>
+                    <li>High-fidelity 3D modeling using Blender with realistic textures and materials</li>
+                    <li>Complex environment optimization for real-time rendering at 60+ FPS</li>
+                    <li>Custom navigation system with smooth camera controls</li>
+                    <li>Advanced lighting and shadow systems for photorealistic rendering</li>
+                    <li>Performance profiling and memory optimization for VR platforms</li>
+                    <li>Cross-platform compatibility testing and validation</li>
+                    <li>Multi-user support for guided campus tours</li>
+                </ul>
+            </div>
+
+            <div class="project-section">
+                <h2>Technologies & Tools Used</h2>
+                <div class="tech-stack">
+                    <div class="tech-item">Blender 3D</div>
+                    <div class="tech-item">Unreal Engine</div>
+                    <div class="tech-item">Twinmotion</div>
+                    <div class="tech-item">C++</div>
+                    <div class="tech-item">VR Development</div>
+                    <div class="tech-item">3D Modeling</div>
+                </div>
+            </div>
+
+            <div class="project-section">
+                <h2>Team & Recognition</h2>
+                <ul>
+                    <li><strong>Team Size:</strong> 4 dedicated developers and designers</li>
+                    <li><strong>Project Duration:</strong> July 2023 - March 2024</li>
+                    <li><strong>Evaluation Phases:</strong> Sept - Nov 2024 (All 3 phases passed)</li>
+                    <li><strong>Award:</strong> 🏆 2nd Prize - Project Expo 2025</li>
+                    <li><strong>Presented to:</strong> Hon. Chancellor Sir, Chandigarh University</li>
+                    <li><strong>Recognition:</strong> Corporate Advisory Board (CAB) Showcase - 2025</li>
+                    <li><strong>Impact:</strong> Set new standard for campus digitalization at CU</li>
+                </ul>
+            </div>
+
+            <div class="project-section">
+                <h2>Impact & Future Scope</h2>
+                <ul>
+                    <li>Enhanced campus experience for student recruitment and tours</li>
+                    <li>Virtual campus walk-throughs accessible to prospective students globally</li>
+                    <li>Foundation for future mixed-reality applications at the university</li>
+                    <li>Demonstrated capability for enterprise-scale VR development</li>
+                    <li>Model for digitalization of educational institutions</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Vishay Kumar. All rights reserved. Tech Enthusiast & 3D Artist</p>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        // Close menu when clicking on a link
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
